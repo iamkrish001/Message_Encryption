@@ -8,6 +8,15 @@ This Python script demonstrates a basic message encryptor using the AES256 encry
 
 The script simulates a messaging system between two users, Krish and Sangit. Here's a breakdown of how it operates:
 
+
+## Screenshots
+
+### Encrypted
+<img width="792" alt="encrypted_data" src="https://github.com/iamkrish001/Message_Encryption/assets/98995873/94de0c3d-8355-42f1-b81f-bd047a3a0692">
+
+### Decrypted
+<img width="791" alt="decrypted_data" src="https://github.com/iamkrish001/Message_Encryption/assets/98995873/64f591a2-725e-4e3b-b7c0-0ec38b605e1c">
+
 1. **Message Data Structure**: The messages exchanged between Krish and Sangit are stored in a dictionary named `message_data`. Each user has a list of dictionaries containing messages along with their corresponding timestamps.
 
 2. **Encryption and Decryption Functions**: The script utilizes the `cryptography` library to implement encryption and decryption functionalities. The `encrypt_message()` function encrypts a given message using AES256 encryption, while the `decrypt_message()` function decrypts a given ciphertext using the same encryption key.
